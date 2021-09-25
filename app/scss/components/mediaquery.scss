@@ -1,0 +1,90 @@
+@use '../abstracts/' as *;
+@include asLongMoreThanOrEqual('medium'){
+    
+    .wrapper{
+        width: 68vw;
+    }
+    .main{
+       
+        height : 100%;
+        &__container{
+            flex-direction: row;
+            &--1{
+                flex : 0 0 60%;
+                text-align : unset;
+            }
+            &--2{
+                flex : 0 0 40%;
+                justify-content: space-between;
+                gap: 10px;
+                
+                
+            }
+        }
+        &__heading{
+            flex : 1;
+            display: flex;
+            flex-direction: column;
+            justify-content : center;
+            &__header{
+                max-width: 13ch;
+            }
+            &__intro{
+                max-width: 38ch;
+            }
+        }
+     
+        &__ratings{
+            flex : 1;
+            justify-content : center;
+        }
+    }
+    .ratings{
+        &__item{
+
+            flex-direction: row;
+            width : 80%;
+            padding: 1.8em;
+            
+            &:nth-of-type(1){
+                align-self: flex-start;
+            }
+            &:nth-of-type(2){
+                align-self: center;
+            }
+            &:nth-of-type(3){
+                align-self: flex-end;
+            }
+
+            &__stars{
+                margin : 0 1em;
+
+            }
+            &__info{
+                margin-top: .4em;
+
+            }
+        }
+    }
+    .testomnial{
+       
+        &:first-of-type{
+            align-self: flex-start;
+        }
+        &:nth-of-type(2){
+            align-self: center;
+        }
+        &:nth-of-type(3){
+            align-self: flex-end;
+        }
+        &__profile{
+            margin-bottom: 1.5em;
+        }
+        &__customer-quote{
+            font-size : var(--fs-500); 
+            line-height: 2;
+            max-width: 26.5ch;
+        }
+    }
+
+}

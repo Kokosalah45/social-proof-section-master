@@ -1,0 +1,21 @@
+.testomnial{
+    background-color: var(--clr-primary-700);
+    padding: 2.5em;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+    &__profile{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        &__img{
+            max-width: 40px;
+            border-radius: 50%;
+            margin-right: 1.5em;
+        }
+    }
+    &__customer-quote{
+        margin: 0;
+        line-height: 1.5;
+    }
+   
+}

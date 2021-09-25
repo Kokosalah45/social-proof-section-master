@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    &__container{
+        &--1{
+            color: var(--clr-primary-700);
+            text-align: center;
+            font-weight: var(--fw-semiBold);
+        }
+    }
+    &__heading{
+        &__header{
+            font-size : var(--fs-900);
+             margin-bottom: .5em;
+             
+
+            
+        }
+        &__intro{
+            font-size: var(--fs-400);
+            font-weight: var(--fw-regular);
+            line-height: 1.5;
+            color : var(--clr-neutral-700);
+        }
+    }
+    
+}
+.testomnial{
+    color : var(--clr-neutral-400);
+    &__profile{
+        &__username{
+            font-weight: var(--fw-semiBold);
+            font-size: var(--fs-400);
+            margin-bottom: .2em;
+        }
+        &__verified{
+            color : var(--clr-primary-400);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@use '../../../abstracts/' as *;
+:root{
+    --fs-400 : .85rem;
+    --fs-500 : .9625rem;
+    --fs-600 : 1rem; 
+    --fs-900 : 2rem;
+}
+@include asLongMoreThanOrEqual('medium'){
+    :root{ 
+        --fs-900 : 3rem;
+    }   
+   
+}

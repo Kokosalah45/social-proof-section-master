@@ -1,0 +1,38 @@
+
+.main{
+    &__ratings{
+        display: flex;
+        flex-direction: column;
+      }
+      &__heading{
+          margin-bottom: 1em;
+      }
+      &__container{
+        display: flex;
+        flex-direction: column ;
+      }
+    }
+
+.ratings{
+    display: flex;
+    flex-direction: column;
+    &__item{
+        display: flex;
+        flex-direction: column;
+        padding : 1.2em;
+        align-items: center;
+        margin-bottom: 1em;
+        background-color: var(--clr-neutral-400);
+        border-radius: 10px;
+        &__stars{
+            display: flex;
+            gap : 10px;
+            margin-bottom: 1em;
+            
+            &__img{
+                min-width: 20px;
+            }
+        }
+    }
+}
+
