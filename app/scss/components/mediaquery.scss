@@ -2,7 +2,7 @@
 @include asLongMoreThanOrEqual('medium'){
     
     .wrapper{
-        width: 68vw;
+        width: 82vw;
     }
     .main{
        
@@ -10,13 +10,14 @@
         &__container{
             flex-direction: row;
             &--1{
-                flex : 0 0 60%;
+                flex : 1;
                 text-align : unset;
+                margin-bottom : 2em;
             }
             &--2{
-                flex : 0 0 40%;
+                flex : 1;
                 justify-content: space-between;
-                gap: 10px;
+                gap : 10px;
                 
                 
             }
@@ -43,7 +44,7 @@
         &__item{
 
             flex-direction: row;
-            width : 80%;
+            width : 85%;
             padding: 1.8em;
             
             &:nth-of-type(1){
@@ -67,23 +68,29 @@
         }
     }
     .testomnial{
-       
+        padding : 2.5em;
+        flex : 0 0 32%;
+        margin-bottom: 0;
         &:first-of-type{
             align-self: flex-start;
         }
         &:nth-of-type(2){
             align-self: center;
+            
         }
         &:nth-of-type(3){
             align-self: flex-end;
+          
         }
         &__profile{
             margin-bottom: 1.5em;
         }
         &__customer-quote{
-            font-size : var(--fs-500); 
+            font-size : var(--fs-400); 
             line-height: 2;
-            max-width: 26.5ch;
+            
+           
+           
         }
     }
 
