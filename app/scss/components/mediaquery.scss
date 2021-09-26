@@ -2,7 +2,7 @@
 @include asLongMoreThanOrEqual('medium'){
     
     .wrapper{
-        width: 82vw;
+        width: 80vw;
     }
     .main{
        
@@ -70,7 +70,7 @@
         }
     }
     .testomnial{
-        padding: 3.5em 2em;
+        padding: 3.5em 2.2em;
         flex : 0 0 32%;
         margin-bottom: 0;
         &:first-of-type{
