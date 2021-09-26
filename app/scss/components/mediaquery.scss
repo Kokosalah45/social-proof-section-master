@@ -10,12 +10,12 @@
         &__container{
             flex-direction: row;
             &--1{
-                flex: 0 0 53%;
+                flex: 1;
                 text-align : unset;
                 margin-bottom : 2em;
             }
             &--2{
-                flex: 0 0 47%;
+                flex: 1;
                 justify-content: space-between;
                 gap : 10px;
                 
